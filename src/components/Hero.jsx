@@ -31,7 +31,9 @@ const Hero = ({ heroapi }) => {
                             {
                                 sociallinks?.map((val, i)=>{
                                     return (
-                                        <SocialLinks icon={val.icon}/>
+                                        <SocialLinks 
+                                        key={i}
+                                        icon={val.icon}/>
                                     );
                                 })
                             }

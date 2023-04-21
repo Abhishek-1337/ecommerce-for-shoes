@@ -5,7 +5,7 @@ const SocialLinks = ({icon}) => {
     <>
       <img 
         src={icon}
-        className='w-8 h-8 sm:h-5 sm:w-5'
+        className='w-8 h-8 sm:h-5 sm:w-5 hover:scale-110'
       />
     </>
   )
